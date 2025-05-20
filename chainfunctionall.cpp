@@ -10,6 +10,8 @@ class buku{
         
         return*this; 
     }
-
-
+    string getJudul()
+    {
+        return this ->judul;
+    }
 };
